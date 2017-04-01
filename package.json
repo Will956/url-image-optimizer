@@ -1,0 +1,21 @@
+{
+  "name": "url-image-optimizer",
+  "version": "0.0.1",
+  "description": "Scan a website to get and optimize all images that are not.",
+  "main": "index.js",
+  "scripts": {
+    "optimize": "node index.js"
+  },
+  "author": "William Duplenne",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.2.0",
+    "find-remove": "^1.0.1",
+    "image-downloader": "^2.0.3",
+    "imagemin": "^5.2.2",
+    "imagemin-guetzli": "^0.1.5",
+    "imagemin-pngquant": "^5.0.0",
+    "mkdirp": "^0.5.1",
+    "psi": "^3.0.0"
+  }
+}
